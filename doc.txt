@@ -1,5 +1,5 @@
-index.html deals with:
-Values,Numbers, Strings, operators, Empty valuesAutomatic type coversion.
+index.html deals with Values:
+Numbers, Strings, operators, Empty valuesAutomatic type coversion.
 
 index2.html deals with: functions
 
