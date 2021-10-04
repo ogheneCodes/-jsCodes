@@ -1,0 +1,16 @@
+index.html deals with:
+Values,Numbers, Strings, operators, Empty valuesAutomatic type coversion.
+
+index2.html deals with: functions
+
+index3.html deals with: objects and arrays
+
+index4.html deals with: Higher order functions
+
+index5.html deals with: life of object{
+    encapsulation,methods, prototypes, classes, class notation, overriding,
+    maps, polymorphism, symbols, iterator, getter, setters and static,
+    inheritance,instanceof
+}
+
+index6.html deals with bugs and errors
