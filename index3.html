@@ -17,7 +17,24 @@
         </div>
 
         <script>
-            // const persons = [
+            let person = [ 
+                human1 ={
+                    name: "max", age: 23, color: "black"
+                },
+                human2 ={
+                    name: "jenny", age: 24, color: "yellow"
+                },
+                human3 ={
+                    name: "rotimi", age: 27, color: "green"
+                },
+                components = ["name", "age", "color"],
+            
+            ];
+            // alert("my"+components[0] + "is" + human1.name + human2.name + human3.name +
+            //  "and they are"+ human1["age"] + human2["age"] + human3["age"] + human1.color +
+            //  human2.color + human3.color + ","
+            // );
+            // let persons = {
             //     person1 = {
             //         name: "max", age: 23, color: "red",
             //     },
@@ -28,25 +45,14 @@
             //         name: "john", age: 29, color: "green",
             //     },
             //     components = ["name", "age", "color"],
-            // ],
-            //  alert();
-            let persons = {
-                person1 = {
-                    name: "max", age: 23, color: "red",
-                },
-                person2 = {
-                    name: "janet", age: 28, color: "yellow",
-                },
-                person3 = {
-                    name: "john", age: 29, color: "green",
-                },
-                components = ["name", "age", "color"],
-            }
-            alert(components);
+            // }
+            // alert(components);
         
-            // function myFunction(){
-            //     document.getElementById("submit").innerHTML = "hello";
-            // };
+            function myFunction(){
+                document.getElementById("submit").innerHTML = "my" +" "+ components[0]+ ""+ 
+                "is" +" "+ human1["name"] +" "+ "and i am" +" "+ human1["age"] + " "+ human2["age"] + 
+                human3.age + human1.color + human2.color + human3.color;
+            };
         </script>
 
     </body>
