@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data type</title>
-</head>
-<body>
-    <div>
-        <center>Data types</center>
-    </div>
-    <script>
-        let numb = 33;
-        let name = "maxbobo";
-        let age1 = 2 > 4;
-        let age2 = 3 < 2;
-        let age3 = 3 == 4;
-        let age4 = 4 && 3;
-        let age5 = 66 || 3;
-        let age6 = 77 != 2;
-        let age7 = 33 % 33;
-        let age8 = 22 === 22;
 
-        document.write(numb);
-        document.write(typeof(numb));
-        document.write(name);
-        document.write(typeof(name));
-        document.write(age1);
-        document.write(typeof(age1));
-        document.write(age2);
-        document.write(typeof(age2));
-        document.write(age3)
-        document.write(typeof(age3));
-        document.write(age4);
-        document.write(typeof(age4))
-        document.write(age5);
-        document.log(typeof(age5));
-        document.write(age6);
-        document.write(typeof(age6));
-        document.write(age7);
-        document.write(typeof(age7));
-        docume.write(age8);
-        document.write(typeof(age8));
-    </script>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data type</title>
+    </head>
+
+    <body>
+        <!-- deals with Data types like Numbers, Strings, operators, 
+    Empty valuesAutomatic type coversion. -->
+        <div>
+            <center>Data types</center>
+            <span id="numb"></span> = <span id="numb1"></span><br>
+            <span id="name"></span> = <span id="name1"></span><br>
+            <span id="age1"></span> = <span id="age11"> </span><br>
+            <span id="age2"></span> = <span id="age22"> </span><br>
+            <span id="age3"></span> = <span id="age33"> </span><br>
+            <span id="age4"></span> = <span id="age44"> </span><br>
+            <span id="age5"></span> = <span id="age55"> </span><br>
+            <span id="age6"></span> = <span id="age66"> </span><br>
+            <span id="age7"></span> = <span id="age77"> </span><br>
+            <span id="age8"></span> = <span id="age88"> </span><br>
+            <span id="age9"></span> = <span id="age99"> </span><br>
+            <span id="age10"></span> = <span id="age1010"> </span><br>
+            <span id="age101"></span> = <span id="age1011"> </span><br>
+            <span id="age0001"></span> = <span id="age00001"> </span><br>
+        </div>
+        <script>
+            let numb = 33;
+            let name = "maxbobo";
+            let age1 = 2 < 4;
+            let age2 = 3 < 2;
+            let age3 = 3 == 4;
+            let age4 = 4 && 3;
+            let age5 = 66 || 3;
+            let age6 = 77 != 2;
+            let age7 = 33 % 33;
+            let age8 = (22 === 22);
+            let age9 = (name + " " + "is" + " " + numb);
+            let age10 = [22, "bisi", "hello", 2 > 3, "hello Man"];
+            let age101 = {
+                names: "max", age: 22, color: "red", car: "benz",
+                compare1: 3 >= "3", compare2: 3 === 3
+            };
+            let age0001 = new Array("cars", "house", 33, 4 < 7);
+
+            document.getElementById("numb").innerHTML = numb;
+            document.getElementById("numb1").innerHTML = typeof (numb);
+            document.getElementById("name").innerHTML = name;
+            document.getElementById("name1").innerHTML = typeof (name);
+            document.getElementById("age1").innerHTML = age1;
+            document.getElementById("age11").innerHTML = typeof (age1);
+            document.getElementById("age2").innerHTML = age2;
+            document.getElementById("age22").innerHTML = typeof (age2);
+            document.getElementById("age3").innerHTML = age3;
+            document.getElementById("age33").innerHTML = typeof (age3);
+            document.getElementById("age4").innerHTML = age4;
+            document.getElementById("age44").innerHTML = typeof (age4);
+            document.getElementById("age5").innerHTML = age5;
+            document.getElementById("age55").innerHTML = typeof (age5);
+            document.getElementById("age6").innerHTML = age6;
+            document.getElementById("age66").innerHTML = typeof (age6);
+            document.getElementById("age7").innerHTML = age7;
+            document.getElementById("age77").innerHTML = typeof (age7);
+            document.getElementById("age8").innerHTML = age8;
+            document.getElementById("age88").innerHTML = typeof (age8);
+            document.getElementById("age9").innerHTML = age9;
+            document.getElementById("age99").innerHTML = typeof (age9);
+            document.getElementById("age10").innerHTML = age10;
+            document.getElementById("age1010").innerHTML = typeof (age10);
+            document.getElementById("age101").innerHTML = age101;
+            document.getElementById("age1011").innerHTML = typeof (age101);
+            document.getElementById("age0001").innerHTML = age0001;
+            document.getElementById("age00001").innerHTML = typeof (age0001);
+            //using methods of push() in Javascript
+            let container1 = ["name", "age", "color"];
+            container1.push("cars");
+            container1.push("bike");
+            container1.push(2 > 3);
+            // alert(container1);
+        
+        
+
+        </script>
+
+    </body>
+
 </html>
