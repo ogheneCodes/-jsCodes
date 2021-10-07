@@ -13,46 +13,66 @@
             <center>Functions in Javascript</center>
             <span id="submit" style="color: red;"></span>
             <br>
-            <button onclick=myFunction()>click</button>
+            <button onclick="myFunction()">click</button>
+            <p>
+            <span><button style="font-size: larger; width: 4em; color: red; 
+            background-color: seagreen; border-radius: 10em;" onclick="myName()">
+                click
+            </button></span>
+            <span id="name" style="margin-left: 20px;"></span>
+        </p>
         </div>
 
         <script>
-            let person = [ 
-                human1 ={
+            let person = [
+                human1 = {
                     name: "max", age: 23, color: "black"
                 },
-                human2 ={
+                human2 = {
                     name: "jenny", age: 24, color: "yellow"
                 },
-                human3 ={
+                human3 = {
                     name: "rotimi", age: 27, color: "green"
                 },
                 components = ["name", "age", "color"],
-            
+
             ];
-            // alert("my"+components[0] + "is" + human1.name + human2.name + human3.name +
-            //  "and they are"+ human1["age"] + human2["age"] + human3["age"] + human1.color +
-            //  human2.color + human3.color + ","
-            // );
-            // let persons = {
-            //     person1 = {
-            //         name: "max", age: 23, color: "red",
-            //     },
-            //     person2 = {
-            //         name: "janet", age: 28, color: "yellow",
-            //     },
-            //     person3 = {
-            //         name: "john", age: 29, color: "green",
-            //     },
-            //     components = ["name", "age", "color"],
-            // }
-            // alert(components);
-        
-            function myFunction(){
-                document.getElementById("submit").innerHTML = "my" +" "+ components[0]+ ""+ 
-                "is" +" "+ human1["name"] +" "+ "and i am" +" "+ human1["age"] + " "+ human2["age"] + 
-                human3.age + human1.color + human2.color + human3.color;
+
+            function myFunction() {
+                document.getElementById("submit").innerHTML = "my" + " " + components[0] + "" +
+                    "is" + " " + human1["name"] + " " + "and i am" + " " + human1["age"] + " " + human2["age"] +
+                    human3.age + human1.color + human2.color + human3.color;
             };
+            //leting a function serve as a variable
+            // let cars = myCars();
+
+            // function myCars(){
+            //     [
+            //         car1 = {
+            //             name: "benz", color: "red", tyres: 4, condition: "new", owner: "Max"
+            //         },
+            //         car2 = {
+            //             name: "toyota", color: "blue", tyres: 4, condition: "new", owner: "Alice"
+            //         },
+            //         car3 = {
+            //             name: "pigout", color: "green", tyres: 3, condition: "used", owner: "mike"
+            //         },
+            //         car4 = {
+            //             name: "504", color: "ash", tyres: 2, condition: "over Used", owner: "bucky"
+            //         },
+            //         carsProp = ["name", "color", "tyres", "condition", "owner"],
+            //     ];
+            //     document.getElementById("myCARS").innerHTML = "hello world";
+            //     };
+
+                // let name = myName();
+                
+                function myName(){
+                let name = "max";
+
+                document.getElementById("name").innerHTML = "my name is : "+ " "+name;
+                };
+               
         </script>
 
     </body>
