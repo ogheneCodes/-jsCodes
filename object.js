@@ -19,5 +19,9 @@ let person2 = [
 ];
 person2["2"].push("black");
 person2["3"] = ["benz", "toyota"],
-person2["3"].push("volvo", "camry", "tesla", "mitsubish");
+// person2["3"].push("volvo");
+person2["3"].unshift("camry");
+person2["3"].unshift("ferarri");
+person2["2"].unshift("orange");
 console.log(person2);
+// console.dir("Maxwell is good");
