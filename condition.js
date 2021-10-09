@@ -17,3 +17,24 @@ console.log(`numb is ${numb} and it is equal to 50`);
 }else{
     console.log(`numb is ${numb} and it is nothing`);
 }
+//using the ternery operator
+const x = 10;
+const color = x === 10 ? "true" : "false";  //x > 10 then show(true)otherwise show(false)
+console.log(`${color}`);
+
+// using switch statement 
+const school = "AUN";
+switch(`${school}`){
+    case 'UNN':
+        console.log("school is UNN");
+        break;
+    case 'ABU':
+        console.log("school is ABU");
+        break;
+    case 'Delsu':
+        console.log("school is Delsu");
+        break;
+    default:
+        console.log("school does not exist here in the swtich");
+        break;
+};
