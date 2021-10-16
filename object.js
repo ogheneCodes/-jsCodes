@@ -62,3 +62,15 @@ console.log(person4[1]);
 //using loop for in arrays for lenght in arrays
 
 // using loop for object for length in objects
+
+//making a function inside an object
+var apple = {
+    type: "macintosh",
+    color: "red",
+    getInfo: function () {
+        return this.color + ' ' + this.type + ' apple';
+    }
+}
+apple["condition"] = "working perfect";  //using the brackect to assign value to an object
+apple.family = "sweetFruits" //using dot(.)to assign value to an object
+console.log(apple)
