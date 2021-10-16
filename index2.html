@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>objects and Arrays</title>
-</head>
-<body>
-    <div>
-        <center style="font-size: larger; color: red;">Object inside an Arrays</center>
-        <p id="container"></p>
-    </div>
-    <script>
-        // arrays are object, here in this code we will be having ojects inside arrays
-        let container = [
-            persons1 = {
-                name: "maxwell", age: 22, color: "black", cars: "benz",
-            },
-            person2 = {
-                name: "jane", age: 21, color: "yellow", car: "toyota",
-            },
-            person3 = {
-                name: "Moses", age: 12, color: "green", car: "ferari",
-            },
-            items = ["names", "age", "color", "cars"],
-        ];
-        document.getElementById("container").innerHTML = (persons1["name"]);
-        alert(typeof(container));
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>objects and Arrays</title>
+    </head>
+
+    <body>
+        <p style="text-align:center">
+            <span style="color:brown">Ebobo</span>
+            <span style="color:blue">Maxwell</span> <br>
+            <span style="color:green"> Oghenemaga</span>
+        </p>
+        <div>
+            <center style="font-size: larger; color: red;">Object inside an Arrays</center>
+            <p id="container"></p>
+        </div>
+        <script>
+            // arrays are object, here in this code we will be having ojects inside arrays
+            let container = [
+                persons1 = {
+                    name: "maxwell", age: 22, color: "black", cars: "benz",
+                },
+                person2 = {
+                    name: "jane", age: 21, color: "yellow", car: "toyota",
+                },
+                person3 = {
+                    name: "Moses", age: 12, color: "green", car: "ferari",
+                },
+                items = ["names", "age", "color", "cars"],
+            ];
+            document.getElementById("container").innerHTML = (persons1["name"]);
+        // alert(typeof(container));
         // document.getElementById("")
-      
-    </script>
-</body>
+
+        </script>
+    </body>
+
 </html>
