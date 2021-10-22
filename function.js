@@ -34,6 +34,7 @@ console.log(multiply());
      return added();
  }
  console.log(addition());
+ 
  //using class in function
  function Apple (type) {
     this.type = type;
@@ -42,4 +43,12 @@ console.log(multiply());
         return this.color + ' ' + this.type + ' apple';
     };
 }
-console.log(Apple);
+// console.log(Apple(type));
+
+//constructive function in Javascript OOP
+function person(firstName, lastName, dob){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = dob;
+}
+

@@ -36,22 +36,22 @@ const person4 = [
 ];
 console.log(person4[1]);
 // console.log(person4[1].property.length);
-//using objects inside an object
-// const person5 = {
-//     person_a = {
-//         property: "chair", cloths: 3, cars: "Benz", wife: "amazin",
-//     },
-//     person_b = {
-//         property: "totle", cloths: 4, cars: "camry", wife: "zozo",
-//     },
-//     person_c = {
-//         property: "kitta", cars: "ferari22", wife: "shudirawa",
-//     },
-//     person_d = {
-//         property: "kettle122", cars: "lorrwwo", wife: "monicana",
-//     },
-// }
-// // console.log(person5);
+// using objects inside an object
+const person5 = {
+    person_a = {
+        property: "chair", cloths: 3, cars: "Benz", wife: "amazin",
+    },
+    person_b = {
+        property: "totle", cloths: 4, cars: "camry", wife: "zozo",
+    },
+    person_c = {
+        property: "kitta", cars: "ferari22", wife: "shudirawa",
+    },
+    person_d = {
+        property: "kettle122", cars: "lorrwwo", wife: "monicana",
+    },
+}
+// console.log(person5);
 
 //using the push method
 

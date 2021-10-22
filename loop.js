@@ -41,17 +41,8 @@ const result = Activities.filter(function(Activities){
 })
 console.log(result);
 
+//using tenery operator for conditioning instead of foreach loop
+const numb = 9, numb1 = 10, numb2 = 11;
 
-
-
-
-
-
-// const toDo = "activities";
-
-// // toDo.array.forEach(element => {
-// //     console.log(toDo);
-// // });
-// toDo.forEach(function(todo){
-//     console.log(toDo.text);
-// })
+const numb3 = numb >= 10 || numb1 >= 10 || numb2 >= 10 ? 'true' : 'false';
+console.log(numb3);
