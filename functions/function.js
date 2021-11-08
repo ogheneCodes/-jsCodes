@@ -49,6 +49,18 @@ console.log(multiply());
 function person(firstName, lastName, dob){
     this.firstName = firstName;
     this.lastName = lastName;
-    this.dob = dob;
+    this.dob = new Date(dob);
+    this.fullName = function(){ //using a function inside a constructive function
+        return `${firstName} ${lastName}`
+    }
 }
+//Instatiate object 
+const person1 = new person('john', 'ibori', '2-3-1990');
+const person2 = new person('Max', 'bobo', '2-24-1994');
+console.log(person2.dob)
+console.log(person2.fullName())
+
+// using split
+const longWord = "oghenemagaebobomaxwell";
+console.log(longWord.split(""));
 
